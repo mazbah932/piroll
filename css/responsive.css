@@ -1,0 +1,92 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.skill-img{
+	background-size: cover;
+}
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.header-right ul li {
+	margin-right: 18px;
+}
+.single-slide {
+	background-size: contain;
+	background-position: top;
+}
+#about-section{padding: 0;}
+.about-slide {
+	background-size: cover;
+	background-position: center;
+}
+.about-area {
+	padding: 0px 0 100px;
+}
+.skill-img {
+	background-size: cover;
+}
+.portfolio-list img {
+	width: 100%;
+}
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+.slider-area {
+	text-align: center;
+}
+.single-slide {
+	background-position: inherit;
+}
+#about-section{padding: 0;}
+.about-img{display: none;}
+a.btn {
+	padding: 20px 40px;
+}
+.skill-img {
+	display: none;
+}
+.counter-title {
+	margin-bottom: 30px;
+}
+.portfolio-list img {
+	width: 100%;
+}
+.video-here {
+	padding: 100px 0;
+}
+.single-testimonial p {
+	font-size: 18px;
+}
+
+.contact-information {
+    margin-left: -15px;
+    margin-top: 25px;
+}
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.portfolio-list img {
+	width: 100%;
+}
+#about-section{padding: 0;}
+.about-img{display: none;}
+
+.contact-information {
+    margin-left: -15px;
+    margin-top: 25px;
+}
+ 
+}

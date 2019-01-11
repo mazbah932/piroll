@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Nunito+Sans:300,400');
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ .pt-60{
+    padding-top: 60px
+ }
+ .pb-60{
+    padding-bottom: 60px;
+ }
+ .pt-100{
+    padding-top: 100px
+ }
+ .pb-100{
+    padding-bottom: 100px;
+ }
+  .pt-120{
+    padding-top: 120px
+ }
+ .pb-120{
+    padding-bottom: 120px;
+ }
+ .pt-150{
+    padding-top: 150px
+ }
+ .pb-150{
+    padding-bottom: 150px;
+ }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	margin-top: 0;
+	font-style: normal;
+	font-weight: 400;
+	color: #313131;
+	text-transform: normal;	
+}
+
+body{
+	box-sizing: border-box;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+/*header*/
+.header-area{
+	padding: 15px 0 15px;
+}
+.transparent-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.contact-header {
+    background: #fff;
+    position: inherit;
+}
+.logo {
+    margin-top: 16px;
+}
+.header-right{}
+.header-right ul{}
+.header-right ul li{
+    display:  inline-block;
+    margin-right: 28px;
+}
+.header-right ul li a{
+    font-size:  12px;
+    color:  #191919;
+    text-decoration:  none;
+    text-transform:  uppercase;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
+    display: block;
+}
+.header-right ul li a.active {
+    color: #56d0cb;
+}
+.header-right ul li a:hover{
+	color: #56d0cb;
+}
+
+/*single-slide*/
+.single-slide {
+    min-height: 670px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-slide{
+    min-height: 445px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slide-content h1 {
+    font-size: 38px;
+    color: #1d1d1d;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+.slide-content p {
+    font-size: 18px;
+    color: #787878;
+    line-height: 28px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-family: 'Nunito';
+}
+a.btn {
+    background: #39b4af;
+    border-radius: 0;
+    color: #fff;
+    padding: 25px 45px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+/*about area*/
+#about-section{
+    position: relative;
+    background: #f5f5f5;
+    padding: 0;
+}
+.about-img {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    left: 0;
+    height: 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-area, .video-area, .service-area{
+	padding: 100px 0 100px;
+}
+.about-title h2 {
+    font-size: 30px;
+    color: #191919;
+    font-weight: 500;
+    font-family: Montserrat;
+    margin-bottom: 35px;
+}
+.about-title p {
+    font-size: 16px;
+    color: #787878;
+    font-weight: 400;
+    font-family: 'Nunito';
+    margin-bottom: 20px;
+}
+
+
+
+
+/*skill-area*/
+
+.skill-area{
+	position: relative;
+	background: #f8f9f9;
+}
+.skill-content h2 {
+    font-size: 30px;
+    color: #171717;
+    font-weight: 500;
+    font-family: Montserrat;
+    margin-bottom: 35px;
+}
+.skill-item h6 {
+    font-size: 12px;
+    color: #000000;
+    font-weight: 500;
+    font-family: Montserrat;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.skill-item h6 > span {
+    margin-left: 18px;
+}
+.skill-content .progress {
+    height: 3px;
+    margin-bottom: 40px;
+    border-radius: 0;
+}
+.skill-content .progress-bar {
+    background-color: #39b4af;
+}
+.skill-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+/*number area*/
+.counter-icon i {
+    color: #fff;
+    font-size: 48px;
+    float: left;
+    display: inline-block;
+    margin-right: 30px;
+}
+.counter-title > span {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+.counter-title > p {
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+
+
+/*portfolio area*/
+.portfolio-area {
+    overflow: hidden;
+}
+.portfolio-list > a {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.portfolio-list:hover a{
+	opacity: 1;
+	visibility: visible;
+}
+.portfolio-list:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000000ba;
+    opacity: 0;
+    transition: .5s;
+    transform: scale(.1);
+}
+.portfolio-list:hover:before{
+	opacity: 1;
+	transform: scale(1);
+}
+
+
+/*.video-here*/
+.video-title p{
+	margin-bottom: 50px;
+}
+.video-here {
+    padding: 240px 0;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a.play i {
+    font-size: 16px;
+    color: #fff;
+    background: #10c9c3;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 100%;
+}
+
+
+
+/*service-area*/
+
+.service-area{background: #f5f5f5;}
+.service-item > i {
+    font-size:  48px;
+    color:  #656565;
+    margin-bottom: 25px;
+}
+.service-item h6 {
+    font-size: 12px;
+    color:  #191919;
+    font-weight: 500;
+    font-family:  Montserrat;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.service-item p {
+    font-size: 16px;
+    color: #787878;
+    font-weight: 400;
+    margin-bottom: 55px;
+    font-family: 'Nunito Sans';
+}
+
+
+
+/*testimonial-area*/
+
+.testimonial-area{background: #10c9c3;}
+.single-testimonial p {
+    font-size: 22px;
+    color: #fff;
+    line-height: 36px;
+    font-weight: 400;
+    font-family:  Montserrat;
+    margin-bottom: 34px;
+}
+.single-testimonial span {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.testimonial-active .owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    display: inline-block;
+    margin: 0 3px;
+    border-radius: 50%;
+    background: #b9cccb;
+}
+.testimonial-active .owl-dot.active{background: #fff;}
+.testimonial-active .owl-dots{margin-top: 100px;}
+
+
+/*brand-area*/
+.brand-active.owl-carousel .owl-item img {
+    display: block;
+    width: inherit;
+}
+.single-brand {
+    text-align: center;
+}
+.single-brand > a {
+    display: inline-block;
+}
+
+
+
+/*contact-form*/
+.contact-area{
+	background: #f5f5f5;
+}
+.contact-form input [type=text]:focus {
+	border: 0;
+}
+.contact-form input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #dddddd82;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd82;
+    margin-bottom: 30px;
+}
+.contact-form textarea:focus, input:focus {
+    outline: none;
+}
+button.btn {
+    padding: 22px 35px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 0;
+    background: #10c9c3;
+    font-weight: 400;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+
+
+
+/*footer-area*/
+
+.footer-area{
+	background: #141414;
+}
+.footer-widget h2 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+}
+.footer-widget p{
+	font-size: 15px;
+	color: #bcbcbc;
+	line-height: 24px;
+}
+.footer-widget ul li {
+    width:  50%;
+    float:  left;
+}
+.footer-widget ul li a {
+    font-size:  15px;
+    color:  #bcbcbc;
+    text-decoration:  none;
+    line-height:  24px;
+}
+.footer-widget ul.social li {
+    width: 100%;
+    float: none;
+}
+
+/*contact page*/
+.contact-info h2 {
+    font-size: 30px;
+    color: #171717;
+    font-weight: 600;
+    font-family: Montserrat;
+    margin-bottom: 30px;
+}
+.contact-info p {
+    font-size: 16px;
+    color: #787878;
+    font-weight: 400;
+    font-family: 'Nunito Sans';
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.info-list ul li{
+    display: block;
+}
+.info-list ul li a {
+    display: block;
+    color: #787878;
+    font-size: 16px;
+    line-height: 36px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Nunito Sans';
+}
+.info-list > ul > li > a > span {
+    font-weight: 600;
+    color: #171717;
+}
+
+
+
+
+
+
+
+
+
+
